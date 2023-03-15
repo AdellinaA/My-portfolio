@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Grape+Nuts&family=Raleway:wght@300;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c4f3aed3c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="styleglastonbury.css">
+    <title>Festivals</title>
+</head>
+<body>
+
+    <header>
+        <span>&copy;<img src="img/logoUnicornsFin.png" alt="logo"></span>
+        <h1 id="logo">Music Festivals in Europe</h1>
+        <form class="search">
+            <input class="search-bar" type="search" name="search" placeholder="Search Query"/>
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <select name="language" id="lang">
+            <option value="English">English</option>
+            <option value="Romana">Romana</option>
+            <option value="Francais">Francais</option>
+        </select>
+    </header>
+    <nav>
+        <ul>
+            <li><div class="line"></div></li>
+            <li><a href="index.html" id="cont"><i class="fa-solid fa-guitar-electric"></i>Home</a></li>
+            <li><div class="line"></div></li>
+            <li><a href="sziget.html"><i class="fa-solid fa-guitar-electric"></i>Sziget</a></li>
+            <li><div class="line"></div></li>
+            <li><a href="tomorrowland.html"><i class="fa-solid fa-piano"></i>Tomorrowland</a></li>
+            <li><div class="line"></div></li>
+            <li><a href="untold.html">Untold</a></li>
+            <li><div class="line"></div></li>
+            <li><a href="exit.html">Exit</a></li>
+            <li><div class="line"></div></li>
+            <li><a href="glastonbury.html" id="contact">Glastonbury</a></li>
+            <li><div class="line"></div></li>
+            <li><a href="contact.html" >Contact </a></li>
+            <li><div class="line"></div></li>
+        </ul>
+        <button onclick="btnbuy()">Buy a ticket!</button>
+    </nav>
+<main>
+            <!-- header-section -->
+            <div class="container">
+                <h1>Glastonbury Festival<span></span></h1>
+                <h1>2023<span></span></h1>
+                
+                <p id="demo"></p>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jun 22, 2023 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+document.getElementById("demo").innerHTML = days + "d " + hours + "h "
++ minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+}
+}, 1000);
+</script>
+            </div>
+            <!--end header-section --> 
+
+            <!-- main section -->
+            <div class="columnlayout"> 
+
+                    
+                <div class="sidebarone">
+                    
+                    <img src="img/glastonburyIcon.png" alt="GlastonburyIcon">
+                    <h4 class="h4">22 IUN-26 IUN</h4>
+                    <h4>2023</h4>
+                    <h3>Festival INFO</h3>
+                    <table>
+                        <tr>
+                        <td><b>Location:</b></td>
+                        <td>Pilton, United KingdomAdress:Worthy Ln, Shepton Mallet BA4 4BY, United Kingdom</td>
+                        </tr>
+                        <tr>
+                        <td><b>Attendees:</b></td>
+                        <td>175k</td>
+                        </tr>
+                        <tr>
+                        <td><b>Website:</b></td>
+                        <td><a href="https://www.glastonburyfestivals.co.uk/">GLASTONBURY FESTIVAL WEBSITE</a></td>
+                        </tr>
+                    </table>
+                        <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/?poster">
+                            <button class="inputaboutus"> GLASTONBURY FESTIVAL POSTER</button>
+                        </a>
+
+                        
+                        <a href="index.html">
+                        
+                            <button class="inputaboutus" > BUY A TICKET</button>
+
+                        </a>
+
+                        <h4 class="lineUp">LINE UP</h4>
+
+                        <div class="listofstaages">
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">PYRAMID STAGE</button>
+                            </a>
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">OTHER STAGE</button>
+                            </a>
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">WEST HOLTS STAGE</button>
+                            </a>
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">THE PARK STAGE</button>
+                            </a>
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">JOHN PEEL STAGE</button>
+                            </a>
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">ACOUSTIC STAGE</button>
+                            </a>
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">AVALON STAGE</button>
+                            </a>
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">ARCADIA</button>
+                            </a>
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">SONIC</button>
+                            </a>
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">LONELY HEARTS CLUB</button>
+                            </a>
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">FIRMLY ROOTED</button>
+                            </a>
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">STONEBRIDGE BAR</button>
+                            </a>
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">THE RABBIT HOLE</button>
+                            </a>
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">RABBIT HOLE'S FUNKINGHAM PALACE</button>
+                            </a>
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">FREE UNIVERSITY OF GLASTONBURY</button>
+                            </a>
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">HMS SWEET CHARITY</button>
+                            </a>
+                            <a href="https://www.glastonburyfestivals.co.uk/line-up/line-up-2022/">
+                            <button class="stages">WOW</button>
+                            </a>
+                        </div>
+                        <div class="bbc">
+                            <a href="https://www.bbc.co.uk/iplayer/episodes/b007r6vx/glastonbury">
+                            <img src="img/glas4.jpg" alt="Glastonbury Festival"></a>
+                        </div>
+                </div>
+                <div class="sidebartwo">
+                    <div class="topimage">
+                        <img src="img/glas2.jpg" alt="Glastonbury">
+                    </div>
+                    <div class="info">
+                        <p>GLASTONBURY FESTIVAL 2023 AT A GLANCE</p>
+                        <p>WHEN DID GLASTONBURY FESTIVAL 2023 TAKE PLACE?</p>
+                        <p>Festival was scheduled from 22 Jun to 26 Jun 2023 (4 day(s)).</p>
+                        <p>WHO IS HEADLINING GLASTONBURY FESTIVAL 2023?</p>
+                        <p>Billie Eilish, Olivia Rodrigo, Doja Cat, Kendrick Lamar, Mitski, Paul McCartney, Glass Animals, Miranda Lambert, Girl In Red, Pet Shop Boys, Clairo, Lorde, Burna Boy, Charli XCX, Kacey Musgraves.</p>
+                        <p>WHAT WERE THE MAIN GENRES AT GLASTONBURY FESTIVAL 2023?</p>
+                        <p>The most popular genres and subgenres of the past edition were:</p>
+                        <p>Rock Pop Electronic Alternative Indie Indie Rock Alternative Rock Electronica Indie Pop Acoustic Experimental Rnb Chillout Electropop Punk Rock Ambient Britpop Dance Downtempo.</p>
+                    </div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/miULxPyh82Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>">
+                    </iframe>
+
+                    <h4>TOP ARTISTS</h4>
+                    <br>
+                    <div class="sections">
+
+
+                        <section>
+                            <img src="img/artist1.webp" alt="exit1">
+                        </section>
+
+                        <section>
+                            <img src="img/artist2.jpg" alt="exit1">
+                        
+                        </section>
+
+                        <section>
+                            <img src="img/artist3.jpg" alt="exit1">
+                        
+                        </section>
+
+                        <section>
+                            <img src="img/artist4.jpeg" alt="exit1">       
+                        </section>
+
+                        <section>
+                            <img src="img/artist5.jpeg" alt="exit1">       
+                        </section>
+
+                        <section>
+                            <img src="img/artist10.webp" alt="exit1">
+                        </section>
+
+                        <section>
+                            <img src="img/artist11.jpg" alt="exit1">
+                        </section>
+
+                        <section>
+                            <img src="img/artist12.jpeg" alt="exit1">
+                        </section>
+
+                        <section>
+                            <img src="img/artist6.avif" alt="exit1">
+                        </section>
+
+                        <section>
+                            <img src="img/artist7.jpeg" alt="exit1">
+                        </section>
+
+                        <section>
+                            <img src="img/artist8.jpeg" alt="exit1">
+                        </section>
+
+                        <section>
+                            <img src="img/artist9.webp" alt="exit1">
+                        </section>
+
+                        
+                    </div>
+
+
+
+
+    </div>
+    </div>
+    <div class="icon-bar">
+        <ul>
+        <li><a href="#" class="facebook"><i class="fa fa-facebook"><span></span></i></a></li>
+        <li><a href="#" class="twitter"><i class="fa fa-twitter"><span></span></i></a></li>
+        <li><a href="#" class="google"><i class="fa fa-google"><span></span></i></a></li>
+        <li><a href="#" class="linkedin"><i class="fa fa-linkedin"><span></span></i></a></li>
+        <li><a href="#" class="youtube"><i class="fa fa-youtube"><span></span></i></a></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <div>
+            <p>You can find us on</p>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-square-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+        <span>&copy;<img src="img/logoUnicornsFin.png" alt="logo"></span>
+        <div class="contact2">
+            <div><i class="fa-solid fa-at"></i>contact@unicorns.com</div>
+            <div><i class="fa-solid fa-phone"></i> 0722 444 555 666</div>
+            <div><i class="fa-sharp fa-solid fa-location-crosshairs"></i>  1st Diamond Street</div>
+        </div>
+    </footer>
+</body>
+</html>
+

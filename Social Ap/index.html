@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+
+    <h1>Social Media App</h1>
+    <div class="container">
+    <!-- left side -->
+    <div class="left">
+        <form id="form">
+            <label id="subtitle" for="">What's on your mind? </label>
+            <br><br>
+            <textarea name="" id="input" placeholder="Write down your post..."  cols="40" rows="10"></textarea>
+            <br><br>
+            <div id="msg"></div>
+            <button type="submit">POST</button>
+        </form>
+    </div>
+
+    <!-- right side -->
+    <div class="right">
+    <h3>Your posts</h3>
+        <div id="posts">
+            <div>
+            <span class="options"></span>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

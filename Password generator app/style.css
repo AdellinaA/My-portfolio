@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Source+Serif+Pro:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.title { 
+    font-family: 'Climate Crisis', cursive;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    color:  #000;
+}
+
+body {
+    background: #3494E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:  #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Climate Crisis', cursive;
+    margin: 0;
+    /* min-height: 100vh; */
+    border-radius:5px;
+}
+
+.container {
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    min-width: 300px;
+    min-height:500px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.5rem;
+    border-radius:20px;
+    position:relative;
+    margin:30px 0 30px 0;
+    
+}
+
+
+.header {
+    padding: 1rem;
+}
+
+.password {
+    background: #3494E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+    overflow: auto;
+    border-radius:10px;
+}
+
+.password button {
+    background-color: white;
+    border: none;
+    color:  #000;
+    cursor: pointer;
+    font-family: 'Climate Crisis', cursive; 
+    font-weight: bold;
+    padding: 0.25rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, 20%);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    opacity: 0;
+    border-radius:10px;
+}
+
+.password:hover button {
+    opacity: 1;
+    transform: translate(0, 0%);
+    font-size:1rem;
+}
+
+#length {
+    border-radius:10px;
+    background: #3494E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size:1rem;
+}
+
+#numbers, #uppercase, #lowercase, #symbols {
+    width:2rem;
+    border-radius:5px;
+
+}
+
+
+.body {
+    padding: 0 1rem 1rem;
+}
+
+.form-options {
+    color:  #000;
+    display:flex;
+    justify-content:space-between;
+    margin:0.75rem 0;
+    border-radius:10px;
+}
+
+.generate {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.5rem;
+   font-weight: bold;
+    background: #3494E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    color:  #000;
+    cursor: pointer;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    width: 100%;
+    border-radius:10px;
+}

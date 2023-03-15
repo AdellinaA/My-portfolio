@@ -1,0 +1,179 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:monospace}
+
+body { 
+    background: linear-gradient(102.4deg, rgba(253,189,85,1) 7.8%, rgba(249,131,255,1) 100.3% );
+    background-attachment: fixed; 
+    z-index: 1; 
+}
+body::after {
+    content:'';
+    position:absolute;
+    height:120vh;
+    width:100%;
+    background-color: black;
+    opacity:0.1;
+    z-index: -1;
+}
+
+.container {
+    font-size:25px;
+    width:70vw;
+    /* max-width:100vw; */
+    height:122vh;
+    margin-top:0.5em;
+    bottom:10em;
+    padding:3em;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    padding:2em;
+    top:50%;
+    left:50%;
+    border-radius: 0.5em;
+    box-shadow: 0 1.2em 2.4em rgba(111, 85, 0, 0.255);
+    background-image: url('pictures/LETTERS-HANGMAN\ edited.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+
+};
+
+#options-container {
+    text-align:center;
+    font-size: 1.8em;
+}
+
+#options-container div {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    margin:1.2em, 0, 0.24em,  0;
+}
+
+#options-container button {
+    padding:0.6em, 1,2em;
+    border:2px solid #000;
+    background-color: #fff;
+    border-radius: 0.3em;
+    width:10vw;
+    height:7vh;
+    margin-bottom:2em;
+    margin-top:2em;
+    cursor: pointer;
+}
+#options-container button {
+    background:linear-gradient(102.4deg, rgba(253,189,85,1) 7.8%, rgba(249,131,255,1) 100.3% );
+}
+#options-container button:hover {
+    width:8.5vw;
+    height:4.5vh;
+}
+
+#options-container button:disabled {
+    border:2px solid #808080;
+    color:#808080;
+    background-color: #efefef;
+}
+
+#options-container button:active {
+background-color: #ecc8c8;
+border:2px solid #000000;
+color:#000000;
+}
+
+#letter-container {
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:8px;
+}
+
+#letter-container button {
+    height:2em;
+    width:2em;
+    border-radius: 0.3em;
+    background-color: #fff;
+    margin-top:1em;
+    cursor: pointer;
+}
+
+.new-game-popup{
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.6em;
+    background-image: url('pictures/fallingLetters.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#user-input-section {
+    display:flex;
+    justify-content: space-between;
+    font-size:1.5em;
+    margin:0% 0% 5% 33% ;
+}
+
+canvas {
+    display:flex;
+    margin-top:5%;
+    margin-left:45%;
+    text-align: center;
+    height:30vh;
+    width:40vw;
+}
+
+.hide {
+    display:none;
+}
+
+#result-text h2 {
+    font-size:1.8em;
+    text-align: center;
+}
+#result-text h2:hover {
+    font-size:2.2em;
+}
+
+#result-text p {
+    font-size:1.25em;
+    margin:1em 0 2em 0;
+}
+
+#result-text span {
+    font-weight: 600;
+}
+
+#new-game-button {
+    font-size:1.25em;
+    padding:0.5em;
+    background:linear-gradient(102.4deg, rgba(253,189,85,1) 7.8%, rgba(249,131,255,1) 100.3% );
+    border:2px solid #000;
+    color:black;
+    border-radius:0.2em;
+    cursor: pointer;
+}
+
+#new-game-button:hover {
+    font-size:1.3em;
+}
+
+
+.win-msg {
+    color:#f8ba34;
+    
+}
+
+.lose-msg {
+    color:#f486c6;
+}

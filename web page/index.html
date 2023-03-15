@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Grape+Nuts&family=Raleway:wght@300;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c4f3aed3c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+  <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+  <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+  <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+  <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+</svg>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buyaticket.css">
+    <title>Festivals</title>
+</head>
+<body>
+
+
+    <header>
+        <span>&copy;<img src="img/logoUnicornsFin.png" alt="logo"></span>
+        <h1 id="logo">Music Festivals in Europe</h1>
+        <form class="search">
+            <input class="search-bar" type="search" name="search" placeholder="Search Query"/>
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <select name="language" id="lang">
+            <option value="English">English</option>
+            <option value="Romana">Romana</option>
+            <option value="Francais">Francais</option>
+        </select>
+
+
+
+
+
+
+<!-- BUTON ABOUT US -->
+
+        <div class="about"><a href="about.html">  <span class="material-symbols-outlined">
+help
+</span></a></div>
+
+
+
+<!-- BUTON ABOUT US -->
+
+
+
+
+
+
+
+
+    </header>
+    <nav>
+        <ul>
+            <li><div class="line"></div></li>
+            <li><a href="index.html" id="cont"><i class="fa-solid fa-guitar-electric"></i>Home</a></li>
+            <li><div class="line"></div></li>
+            <li><a href="sziget.html"><i class="fa-solid fa-guitar-electric"></i>Sziget</a></li>
+            <li><div class="line"></div></li>
+            <li><a href="tomorrowland.html"><i class="fa-solid fa-piano"></i>Tomorrowland</a></li>
+            <li><div class="line"></div></li>
+            <li><a href="untold.html">Untold</a></li>
+            <li><div class="line"></div></li>
+            <li><a href="exit.html">Exit</a></li>
+            <li><div class="line"></div></li>
+            <li><a href="glastonbury.html">Glastonbury</a></li>
+            <li><div class="line"></div></li>
+            <li><a href="contact.html" id="contact">Contact </a></li>
+            <li><div class="line"></div></li>
+        </ul>
+        <button onclick="btnbuy()">Buy a ticket!</button>
+    </nav>
+
+    <main>
+        <div class="frame">
+            <div class="boxes">
+		        <div class="box one">
+                    <a href="sziget.html">
+			            <span class="text">Sziget</span>
+                        <div class="icon"><img  src="img/szigetIcon.png" alt="Sziget">
+                        </div>
+                    </a>
+		        </div>
+		        <div class="box two">
+                    <a href="tomorrowland.html">
+			            <span class="text">Tomorrowland</span>
+			            <div class="icon"><img src="img/tomorrowlandIcon-01.png" alt="Tomorrowland">
+                        </div>
+                    </a>
+		        </div>
+		        <div class="box three">
+                    <a href="untold.html">
+			            <span class="text">Untold</span>
+			            <div class="icon"><img src="img/untoldIcon.png" alt="Untold">
+                        </div>
+                    </a>    
+		        </div>
+		        <div class="box four">
+                    <a href="exit.html">
+			            <span class="text">Exit</span>
+			            <div class="icon"><img src="img/exit.png" alt="Exit">
+                        </div>
+                    </a>        
+		        </div>
+                <div class="box five">
+                    <a href="/glastonbury.html">
+			            <span class="text">Glastonbury</span>
+			            <div class="icon"><img src="img/glastonburyIcon.png" alt="Glastonbury">
+                        </div>
+                    </a>        
+		        </div>
+                <div class="box six">
+			        <div class="description">
+                        <div class="fest">
+                            <a href="sziget.html">
+                                <h2>Sziget</h2>
+                                <h3>9-14 August 2023</h3>
+                                <h3>Budapest, Hungary</h3>
+                            </a>
+                        </div>     
+                        <div class="fest">
+                            <a href="tomorrowland.html">
+                                <h2>Tomorrowland</h2>
+                                <h3>21-23 & 28-30 July 2023</h3>
+                                <h3>Boom, Belgium</h3>
+                            </a>
+                        </div>  
+                        <div class="fest">
+                            <a href="untold.html">
+                                <h2>Untold</h2>
+                                <h3>3-6 August 2023</h3>
+                                <h3>Cluj-Napoca, Romania</h3>
+                            </a>
+                        </div>  
+                        <div class="fest">
+                            <a href="exit.html">
+                                <h2>Exit</h2>
+                                <h3>6-9 July 2023</h3>
+                                <h3>Novi Sad, Serbia</h3>
+                            </a>
+                        </div> 
+                        <div class="fest"><a href="glastonbury.html">
+                                <h2 class="nowrap">Glastonbury Festival</h2>
+                                <h3>21-25 June 2023</h3>
+                                <h3>Somerset, England</h3>
+                            </a>
+                        </div>     
+                    </div>
+                    <div class="description2">
+
+                        <!-- aici e formularul meu -->
+
+                        <div class="name">
+                            <div>
+                                    <label for="name"><i class="fa-solid fa-user"></i> Name</label>
+                                <input type="text" id="name" name="visitor_name" placeholder=" Name" pattern=[A-Z\a-z]{3,20} required>
+                            </div>
+                            <div>
+                                <label for="name"><i class="fa-solid fa-user"></i> Surname</label>
+                                <input type="text" id="name" name="visitor_name" placeholder="Surname" pattern=[A-Z\a-z]{3,20} required>
+                            </div>
+
+                        </div>  
+
+                        <div class="infoData"> 
+                            <div>
+                            <label for="email"><i class="fa-solid fa-envelope"></i> Email</label>
+                            <input type="email" id="email" name="visitor_email" placeholder="Email" required>
+                            </div>
+                            <div> 
+                            <label for="phone"><i class="fa-solid fa-phone-flip"></i> Phone</label>
+                            <input type="tel" id="phone" name="visitor_name" placeholder=" 07xx-xxx-xxx" required >
+                        </div>
+                        </div>
+
+
+                        <div class="data">
+                            <div class="selectFest">
+                                <label for="festival" class="nowrap"><i class="fa-solid fa-clipboard-check"></i> Select a festival</label>
+                                <select name="festival" id="festival">
+                                    <option value="Sziget">Sziget</option>
+                                    <option value="Sziget">Tomorrowland</option>
+                                    <option value="Sziget">Untold</option>
+                                    <option value="Sziget">Exit</option>
+                                    <option value="Sziget">Glastonbury</option>
+                                </select>
+                            </div>
+                            <div class="stage">
+                            <label for="stage-selection"><i class="fa-solid fa-martini-glass-citrus"></i>Stage Preference:</label>
+                            <select id="stageSelection" name="stage_preference" required>
+                                <option value=""><i class="fa-solid fa-guitar"></i> Choose a stage from the List</option>
+                                <option value="connecting">Connecting</option>
+                                <option value="adjoining">Adjoining</option>
+                                <option value="adjacent">Adjacent</option>
+                            </select>
+                        </div>
+                        </div>
+
+                            <div class="dateInput">
+                                <label for="data-festival"><i class="fa-solid fa-calendar-days"></i> Select date:</label>
+                                <input type="date" id="data-festival" name="data-festival" required>
+                            </div>
+
+
+                        <div class="radioType">
+                            <label for="radio-button">Ticket Type: </label>
+                            <input type="radio" name="radio-button" id="radio-button"  class="radio-button" value="radio">Standard
+                            <input type="radio" name="radio-button" id="radio-button" class="radio-button"  value="radio">VIP
+                        </div>
+                        <div>
+                            <label for="message">Anything else? </label>
+                            <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important "></textarea>
+                        </div>
+
+                        <!-- <div>
+                            <label for="radio-payment" >Choose your payment: </label>
+                            <div class="icon-container">
+                                <i class="fa fa-cc-visa"></i>
+                                <i class="fa fa-cc-amex"></i>
+                                <i class="fa fa-cc-mastercard"></i>
+                                <i class="fa fa-cc-discover"></i>
+                            </div>
+                        </div> -->
+
+
+                        <button class="buttonbuy" type="Submit" > Buy the ticket</button>
+
+
+                            <!-- aici e formularul meu  -->
+                        </div>
+		            </div>
+                </div>
+		    </div>    
+    <div class="sections">
+        <h2>Headliners</h2>
+        <div id="up"><button class="up"><a href="#logo"><i class="fa-solid fa-arrow-up"></i></a></button></div>
+
+
+        <section>
+            <div class="secpic"><img src="img/arcticMonkeys.jpg" alt="">
+            </div>
+            <h3>Arctic Monkeys</h3>
+            <p>The British indie rock band Arctic Monkeys has finally returned to the festival stages. They will make a great act of it so make sure you don’t miss them! Listen here to one of their most famous songs.</p>
+            <div class="forward">
+                <a href="sziget.html">
+                    <button>
+                        <h4>Sziget Festival</h4>
+                        <span class="material-symbols-outlined">double_arrow</span>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <div class="secpic"><img src="img/KingsOfLeon.jpg" alt="">
+            </div>
+            <h3>Kings of Leon</h3>
+            <p>The 3 brothers of Kings of Leon have worked very hard the last few years. They have already released 7 albums. There act will be amazing!</p>
+            <div class="forward">
+                <a href="sziget.html">
+                    <button>
+                        <h4>Sziget Festival</h4>
+                        <span class="material-symbols-outlined">double_arrow</span>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <div class="secpic"><img src="img/hardwell.jpeg" alt="">
+            </div>
+            <h3>Hardwell</h3>
+            <p>Hardwell has played a number of festivals including Starlite Marbella, Kingsland Festival Amsterdam, Ultra South Africa - Cape Town, Weekend Festival Baltic, Ultra South Africa - Johannesburg and Summerburst - Göteborg.</p>
+            <div class="forward">
+                <a href="tomorrowland.html">
+                    <button>
+                        <h4>Tomorrowland Festival</h4>
+                        <span class="material-symbols-outlined">double_arrow</span>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <div class="secpic"><img src="img/nickyRomero.jpg" alt="">
+            </div>
+            <h3>Nicky Romero</h3>
+            <p>Nicky Romero has played a number of festivals including DLDK: Don't Let Daddy Know Amsterdam, Kingsland Festival Groningen, Medusa Sunbeach Festival, Kingsland Festival Twente, Sensation Spain and Leiria Dancefloor.</p>
+            <div class="forward">
+                <a href="tomorrowland.html">
+                    <button>
+                        <h4>Tomorrowland Festival</h4>
+                        <span class="material-symbols-outlined">double_arrow</span>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <div class="secpic"><img src="img/davidGuetta.jpg" alt="">
+            </div>
+            <h3>David Guetta</h3>
+            <p>David Guetta is undeniably one of the world's biggest DJ and producers, having helped define an entire generation of dance music.</p>
+            <div class="forward">
+                <a href="untold.html">
+                    <button>
+                        <h4>Untold Festival</h4>
+                        <span class="material-symbols-outlined">double_arrow</span>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <div class="secpic"><img src="img/GEasy.jpg" alt="">
+            </div>
+            <h3>G-Easy</h3>
+            <p>G-Eazy is a rapper, producer and songwriter hailing from United States. Since his debut in 2006 he has been one of the most prolific rappers of his generation, releasing three studio albums, six mixtapes and three E.P’s.</p>
+            <div class="forward">
+                <a href="untold.html">
+                    <button>
+                        <h4>Untold Festival</h4>
+                        <span class="material-symbols-outlined">double_arrow</span>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <div class="secpic"><img src="img/calvinHarris.jpg" alt="">
+            </div>
+            <h3>Calvin Harris</h3>
+            <p>The first British solo artist to reach one billion streams on Spotify first made his name back in 2007 with 'Acceptable in the 80s', when Harris himself performed as the centre-piece and vocalist of his act.</p>
+            <div class="forward">
+                <a href="exit.html">
+                    <button>
+                        <h4>Exit Festival</h4>
+                        <span class="material-symbols-outlined">double_arrow</span>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <div class="secpic"><img src="img/nickCave.jpg" alt="">
+            </div>
+            <h3>Nick Cave & the Bad Seeds</h3>
+            <p>Nick Cave has played a number of festivals including INmusic Festival, Rock Werchter, APE Presents and Primavera Sound.</p>
+            <div class="forward">
+                <a href="exit.html">
+                    <button>
+                        <h4>Exit Festival</h4>
+                        <span class="material-symbols-outlined">double_arrow</span>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <div class="secpic"><img src="img/gunsNRoses.jpg" alt="">
+            </div>
+            <h3>Guns N´ Roses</h3>
+            <p>Guns N’ Roses will be returning to Europe in the Summer of 2022 and continue their World Tour to South America, Asia, Australia and New Zealand in the Fall.</p>
+            <div class="forward">
+                <a href="glastonbury.html">
+                    <button>
+                        <h4>Glastonbury Festival</h4>
+                        <span class="material-symbols-outlined">double_arrow</span>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <div class="secpic"><img src="img/eltonJohn.jpg" alt="">
+            </div>
+            <h3>Sir Elton John</h3>
+            <p>Elton John has played a number of festivals including Musilac and Les Déferlantes Sud de France.</p>
+            <div class="forward">
+                <a href="glastonbury.html">
+                    <button>
+                        <h4>Glastonbury Festival</h4>
+                        <span class="material-symbols-outlined">double_arrow</span>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <div class="secpic"><img src="img/duaLipa.jpg" alt="">
+            </div>
+            <h3>Dua Lipa</h3>
+            <p>A regular on the summer festival circuit, impressive appearances at Reading and Leeds Festival, Sziget, and Mad Cool Festival demonstrated that as one of the world’s most engaging performers, she knows how to work a festival crowd.</p>
+            <div class="forward">
+                <a href="sziget.html">
+                    <button>
+                        <h4>Sziget Festival</h4>
+                        <span class="material-symbols-outlined">double_arrow</span>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <div class="secpic"><img src="img/boris.jpg" alt="">
+            </div>
+            <h3>Boris Brejcha</h3>
+            <p>Boris Brejcha has played a number of festivals including Contact Festival, FCKNYE Festival, World Club Dome, LX Music presents Boris Brejcha, Isle of Summer Open Air | Olympia Reitanlage and Electronic Sensation.</p>
+            <div class="forward">
+                <a href="exit.html">
+                    <button>
+                        <h4>Exit Festival</h4>
+                        <span class="material-symbols-outlined">double_arrow</span>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+    </div>
+
+    </main>
+
+    <footer>
+        <div>
+            <p>You can find us on</p>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-square-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+        <span>&copy;<img src="img/logoUnicornsFin.png" alt="logo"></span>
+        <div class="contact2">
+            <div><i class="fa-solid fa-at"></i>contact@unicorns.com</div>
+            <div><i class="fa-solid fa-phone"></i> 0722 444 555 666</div>
+            <div><i class="fa-sharp fa-solid fa-location-crosshairs"></i>  1st Diamond Street</div>
+        </div>
+    </footer>
+
+        </div>
+    </div>
+    <div class="icon-bar">
+        <ul>
+        <li><a href="#" class="facebook"><i class="fa fa-facebook"><span></span></i></a></li>
+        <li><a href="#" class="twitter"><i class="fa fa-twitter"><span></span></i></a></li>
+        <li><a href="#" class="google"><i class="fa fa-google"><span></span></i></a></li>
+        <li><a href="#" class="linkedin"><i class="fa fa-linkedin"><span></span></i></a></li>
+        <li><a href="#" class="youtube"><i class="fa fa-youtube"><span></span></i></a></li>
+        </ul>
+    </div>
+
+
+
+
+
+</body>
+</html>
